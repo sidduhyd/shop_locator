@@ -1,0 +1,4 @@
+<h2>{{ shop.name }}</h2>
+<p>Latitude: {{ shop.latitude }}</p>
+<p>Longitude: {{ shop.longitude }}</p>
+<a href="{% url 'shop_update' pk=shop.pk %}">Edit</a>
